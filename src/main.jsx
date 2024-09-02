@@ -16,6 +16,7 @@ import Updatepassword from "./pages/Updatepassword.jsx";
 import Contact from "./pages/contact.jsx";
 import Jobs from "./pages/Jobs.jsx";
 import HackathonsPage from "./pages/hackathon.jsx";
+import Alumini from "./pages/Alumini.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -64,6 +65,9 @@ const router = createBrowserRouter([
       {
         path:"/hackathons/:name",
         element:<HackathonsPage/>
+      },{
+        path:"/alumni-network",
+        element:<Alumini/>
       }
     ],
   },

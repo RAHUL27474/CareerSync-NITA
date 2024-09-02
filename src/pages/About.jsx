@@ -8,44 +8,44 @@ import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const teamMembers = [
   {
-    name: "CLIAR BROWN",
+    name: "RAHUL CHAUDHARY",
     position: "CEO",
     image: img1,
-    instagram: "https://www.instagram.com/cliardbrown",
+    instagram: "https://www.instagram.com/stillworking",
     linkedin: "https://www.linkedin.com/in/cliardbrown",
     twitter: "https://twitter.com/cliardbrown",
     details:
-      "CLIAR BROWN is the CEO with extensive experience in leading tech companies and driving innovation.",
+      "RAHUL CHAUDHARY is the CEO with extensive experience in leading tech companies and driving innovation.",
   },
   {
-    name: "ADMA FINCH",
+    name: "HIMANSHU SACHAN",
     position: "CTO",
     image: img2,
     instagram: "https://www.instagram.com/admafinch",
     linkedin: "https://www.linkedin.com/in/admafinch",
     twitter: "https://twitter.com/admafinch",
     details:
-      "ADMA FINCH is the CTO specializing in cutting-edge technology and software development.",
+      "HIMASHU SACHAN is the CTO specializing in cutting-edge technology and software development.",
   },
   {
-    name: "JHON REYSE",
+    name: "HARSH RAJ",
     position: "CFO",
     image: img3,
     instagram: "https://www.instagram.com/jhonreyse",
     linkedin: "https://www.linkedin.com/in/jhonreyse",
     twitter: "https://twitter.com/jhonreyse",
     details:
-      "JHON REYSE is the CFO with a strong background in financial planning and management.",
+      "HARSH RAJ is the CFO with a strong background in financial planning and management.",
   },
   {
-    name: "LUCAS MARTIN",
+    name: "ADARSH KUMAR",
     position: "COO",
     image: img4,
     instagram: "https://www.instagram.com/lucasmartin",
     linkedin: "https://www.linkedin.com/in/lucasmartin",
     twitter: "https://twitter.com/lucasmartin",
     details:
-      "LUCAS MARTIN is the COO, focusing on operational efficiency and strategic growth.",
+      "ADARSH KUMAR is the COO, focusing on operational efficiency and strategic growth.",
   },
 ];
 
