@@ -1,8 +1,8 @@
 // src/pages/HackathonsPage.js
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import { hackathonroutes } from '../apis/apis';
 import { useParams } from 'react-router-dom';
+import { apiConnector } from '../utils/Apiconnecter';
 
 const HackathonCard = ({ hackathon }) => (
     <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden mb-6">
@@ -46,7 +46,7 @@ const HackathonsPage = () => {
         }
         const fetchHackathons = async () => {
             try {
-                const response = await axios.get({hackathonroutes});
+                const response = await apiConnector("GET",hackathonroutes.GET_HACKATHON_API);
                 console.log(response.data.data)
                 setHackathons(response.data.data);
             } catch (err) {
